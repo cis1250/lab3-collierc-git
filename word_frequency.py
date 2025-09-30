@@ -42,7 +42,7 @@ for words in list2:
     list2[words] = 0
 
 for words in list1:
-    list3[list2.index(words)] ++
+    list3[list2.index(words)] += 1
 
 for words in list2
     print(words + ":")
