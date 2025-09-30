@@ -17,6 +17,9 @@ while True:
       print("please input an integer")
   if terms > 0:
     break
+  else:
+    del input
+    print("please input a positive integer")
 print("calculating fibbonacci sequence up to " + input + " digits")
 
 value1 = 0
