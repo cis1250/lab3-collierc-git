@@ -15,7 +15,7 @@ for x in range (0,4):
   if x == 0:
     print(value1)
   else:
-    value3 = value1 += value2
+    value3 = value1 + value2
     value1 = value2
     value2 = value3
     print(value2)
