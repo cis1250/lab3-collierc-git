@@ -39,12 +39,18 @@ tempset = set(list1)
 list2 = list(tempset)
 list3 = []*len(list2)
 
+print(list1)
+print(list2)
+print(list3)
+
+"""
 for words in list3:
     list3[words] = 0
 
 for words in list1:
-    list3[list2.index(words)] += 1
+    list3[list2.index()] += 1
 
 for words in list2:
     print(words + ":")
     print(list3[list2.index(words)])
+"""
