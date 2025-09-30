@@ -11,7 +11,7 @@ print("calculating fibbonacci sequence up to " + terms + " digits")
 
 value1 = 0
 value2 = 1
-for x in range (0,4):
+for x in range (0,terms):
   if x == 0:
     print(value1)
   else:
