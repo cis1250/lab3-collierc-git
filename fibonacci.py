@@ -13,6 +13,7 @@ while True:
       terms = int(input)
       break
     except ValueError:
+      del input
       print("please input an integer")
   if terms > 0:
     break
