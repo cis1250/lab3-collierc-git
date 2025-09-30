@@ -6,11 +6,16 @@
 # Validate that the input is a positive integer.
 # Use a for loop to print the Fibonacci sequence up to that many terms.
 print("please enter the amount of terms you want to print")
-input = input()
-try:
-  terms = int(input)
-except ValueError:
-  print("please input an integer")
+while:
+  while:
+    input = input()
+    try:
+      terms = int(input)
+      break
+    except ValueError:
+      print("please input an integer")
+  if terms > 0:
+    break
 print("calculating fibbonacci sequence up to " + input + " digits")
 
 value1 = 0
