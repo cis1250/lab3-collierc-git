@@ -35,5 +35,12 @@ while True:
         break
 
 list1 = user_sentence.split(' ')
-print(list1)
+list2 = set(list1)
+list3 = []*len(list2)
 
+for words in list1:
+    list3[list2.index(words)] ++
+
+for words in list2
+    print(words + ":")
+    print(list3[list2.index(words)])
