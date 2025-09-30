@@ -38,6 +38,9 @@ list1 = user_sentence.split(' ')
 list2 = set(list1)
 list3 = []*len(list2)
 
+for words in list2:
+    list2[words] = 0
+
 for words in list1:
     list3[list2.index(words)] ++
 
