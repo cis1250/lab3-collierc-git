@@ -12,11 +12,11 @@ print("calculating fibbonacci sequence up to " + terms + " digits")
 value1 = 0
 value2 = 1
 for x in range (0,4):
-  if value1 != 0
+  if value1 != 0:
     value2 = value1
-  if x = 0
+  if x = 0:
     print(value1)
-  else
+  else:
     value1 += value2
     print(value1)
   
