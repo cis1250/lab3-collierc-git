@@ -44,6 +44,6 @@ for words in list2:
 for words in list1:
     list3[list2.index(words)] += 1
 
-for words in list2
+for words in list2:
     print(words + ":")
     print(list3[list2.index(words)])
