@@ -11,7 +11,7 @@ try:
   terms = int(input)
 except ValueError:
   print("please input an integer")
-print("calculating fibbonacci sequence up to " + terms + " digits")
+print("calculating fibbonacci sequence up to " + input + " digits")
 
 value1 = 0
 value2 = 1
