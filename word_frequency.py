@@ -29,9 +29,11 @@ def is_sentence(text):
 
     return True
 
-user_sentence = input("Enter a sentence: ")
+while True:
+    user_sentence = input("Enter a sentence: ")
+    if is_sentence(user_sentence):
+        break
 
-while (is_sentence(user_sentence) == False):
-    print("This does not meet the criteria for a sentence.")
-    user_input = input("Enter a sentence: ")
-    
+list1 = user_sentence.split(' ')
+print(list1)
+
