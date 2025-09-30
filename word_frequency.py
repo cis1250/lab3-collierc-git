@@ -37,14 +37,10 @@ while True:
 list1 = user_sentence.split(' ')
 tempset = set(list1)
 list2 = list(tempset)
-list3 = []*len(list2)
+list3 = [0]*len(list2)
 
 print(list1)
 print(list2)
-
-for words in list3:
-    list3[words] = 0
-    
 print(list3)
 """
 for words in list1:
