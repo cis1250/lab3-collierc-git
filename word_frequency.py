@@ -35,7 +35,8 @@ while True:
         break
 
 list1 = user_sentence.split(' ')
-list2 = set(list1)
+tempset = set(list1)
+list2 = list(tempset)
 list3 = []*len(list2)
 
 for words in list3:
