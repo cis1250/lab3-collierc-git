@@ -41,12 +41,12 @@ list3 = []*len(list2)
 
 print(list1)
 print(list2)
-print(list3)
 
-"""
 for words in list3:
     list3[words] = 0
-
+    
+print(list3)
+"""
 for words in list1:
     list3[list2.index()] += 1
 
